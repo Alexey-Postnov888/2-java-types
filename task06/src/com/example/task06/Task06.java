@@ -6,13 +6,12 @@ public class Task06 {
         int result = x + y;
         int cnt = 0;
 
-         while (result != 0) {
-             cnt++;
-             result /= 10;
-         }
+        while (result != 0) {
+            cnt++;
+            result /= 10;
+        }
 
         if (cnt == 0) return 1;
-
 
         return cnt;
     }
